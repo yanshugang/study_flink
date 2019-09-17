@@ -1,8 +1,8 @@
-package com.study.flink.course05
+package com.study.flink.course05_DataStream
 
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
-object DataStreamSourceApp {
+object SourceApp {
 
 
   /**

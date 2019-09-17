@@ -1,4 +1,4 @@
-package com.study.flink.course05
+package com.study.flink.course05_DataStream
 
 /**
   * 自定义sink

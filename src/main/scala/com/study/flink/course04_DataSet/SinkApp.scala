@@ -1,4 +1,4 @@
-package com.study.flink.course04
+package com.study.flink.course04_DataSet
 
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.core.fs.FileSystem.WriteMode

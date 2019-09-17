@@ -1,11 +1,11 @@
-package com.study.flink.course04
+package com.study.flink.course04_DataSet
 
 import org.apache.flink.api.common.operators.Order
 import org.apache.flink.api.scala.ExecutionEnvironment
 
 import scala.collection.mutable.ListBuffer
 
-object DataSetTransormationApp {
+object TransormationApp {
 
 
   /**

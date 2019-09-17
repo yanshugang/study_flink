@@ -1,4 +1,4 @@
-package com.study.flink.course05
+package com.study.flink.course05_DataStream
 
 import org.apache.flink.streaming.api.functions.source.{RichParallelSourceFunction, SourceFunction}
 

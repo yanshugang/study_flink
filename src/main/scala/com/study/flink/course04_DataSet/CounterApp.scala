@@ -1,4 +1,4 @@
-package com.study.flink.course04
+package com.study.flink.course04_DataSet
 
 /**
   * flink计数器

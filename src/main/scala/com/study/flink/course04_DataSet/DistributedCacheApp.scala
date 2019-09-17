@@ -1,4 +1,4 @@
-package com.study.flink.course04
+package com.study.flink.course04_DataSet
 
 import org.apache.commons.io.FileUtils
 import org.apache.flink.api.common.functions.RichMapFunction

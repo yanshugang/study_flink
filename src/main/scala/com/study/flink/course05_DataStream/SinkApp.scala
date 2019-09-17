@@ -1,4 +1,4 @@
-package com.study.flink.course05
+package com.study.flink.course05_DataStream
 
 /**
   * 自定义sink
@@ -7,7 +7,7 @@ package com.study.flink.course05
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
 
-object DataStreamSinkApp {
+object SinkApp {
 
 
   def main(args: Array[String]): Unit = {

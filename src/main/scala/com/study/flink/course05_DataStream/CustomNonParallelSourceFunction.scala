@@ -1,14 +1,14 @@
-package com.study.flink.course05
+package com.study.flink.course05_DataStream
 
-import org.apache.flink.streaming.api.functions.source.{ParallelSourceFunction, SourceFunction}
+import org.apache.flink.streaming.api.functions.source.SourceFunction
 
-class CustomParallelSourceFunction extends ParallelSourceFunction[Long] {
+class CustomNonParallelSourceFunction extends SourceFunction[Long] {
 
   var count = 1L
   var is_running = true
 
   override def run(ctx: SourceFunction.SourceContext[Long]): Unit = {
-    while (is_running) {
+    while(is_running){
       ctx.collect(count)
       count += 1
       Thread.sleep(1000)

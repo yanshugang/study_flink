@@ -1,4 +1,4 @@
-package com.study.flink.course06
+package com.study.flink.course06_sql
 
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.table.api.scala.BatchTableEnvironment

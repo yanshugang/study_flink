@@ -1,11 +1,11 @@
-package com.study.flink.course05
+package com.study.flink.course05_DataStream
 
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
 /**
   * DataStream Transformation
   */
-object DataStreamTransformationApp {
+object TransformationApp {
 
   def filtetr_function(env: StreamExecutionEnvironment): Unit = {
     import org.apache.flink.api.scala._
